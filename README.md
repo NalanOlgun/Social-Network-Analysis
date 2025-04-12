@@ -5,11 +5,12 @@ This project examines the relationship between languages based on common vocabul
 It constructs a network graph where each node is a language and the edges represent the number of words shared. 
 This project was developed as part of the Social Media Mining course at the University of Milan.
 
-Process: 
-1.Acquired data on shared vocabulary across various languages
-2.Processed and prepared the data for graph building
-3. built the network using only the connected languages with mutual word count exceeding 100
-4.Community Detection using: Louvain Method
+Process:  
+
+1. Acquired data on shared vocabulary across various languages.
+2. Processed and prepared the data for graph building.
+3. built the network using only the connected languages with mutual word count exceeding 100.
+4. Community Detection using: Louvain Method.
 
 Centrality Metrics:
   * Degree Centrality: Number of direct connections a language possesses
